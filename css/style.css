@@ -1,0 +1,96 @@
+/* Google Font Import for Jersey Style */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+/* Pixelated text style */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Oswald:wght@200..700&display=swap');
+/* Monospaced for regular text */
+html,
+body {
+  
+  font-family: 'Jersey', monospace;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, rgb(41, 94, 155) 0%, rgba(148, 187, 233, 1) 100%);
+  color: #7eb7cc;
+}
+
+body,
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-family: 'Press Start 2P', cursive;
+  color: #4d64d6;
+
+}
+
+h3 {
+  font-family: "Courier New", monospace;
+  color: #333;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  color: #3a4660;
+  margin: 20px;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.small-box {
+  background-color: #f7d9aa;
+  border: 2px solid #da8c50;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  box-shadow: 3px 3px #888888;
+}
+
+#mainFlex {
+  box-sizing: border-box;
+  background-color: #fff0f5;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #da8c50;
+}
+
+img {
+  max-width: 50px;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  #mainFlex {
+    flex-direction: column;
+  }
+
+  .left-paragraph,
+  .right-paragraph,
+
+
+#canvasContainer {
+  width: 100%;
+  text-align: center;
+  order: 3;
+}
+
+#canvasContainer {
+  order: 2;
+}
+h1 {
+  order: 1;
+}
+}
+#canvasContainer {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+}
